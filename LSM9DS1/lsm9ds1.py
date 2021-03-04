@@ -11,7 +11,7 @@ AccelerometerID = 0x68
 
 # Magnetometer default slave address
 MagnetometerSlaveAddr = 0x6B
-MagnetometerID = 3D
+MagnetometerID = 0x3D
 
 # Accelerometr Register Mapping
 
