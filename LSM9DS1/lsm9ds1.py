@@ -25,7 +25,7 @@ bus = smbus.SMBus(1)
 
 class LSM9DS1:
 
-def searchDevice(self)
+def searchDevice(self):
 	who_am_i = bus.read_byte_data(self.address, WHO_AM_I)
 	if(who_am_i == AccelerometerID)
 		return true
