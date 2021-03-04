@@ -27,7 +27,7 @@ class LSM9DS1:
 
 def searchDevice(self):
 	who_am_i = bus.read_byte_data(self.address, WHO_AM_I)
-	if(who_am_i == AccelerometerID)
+	if(who_am_i == AccelerometerID):
 		return true
 	else:
 		return false
