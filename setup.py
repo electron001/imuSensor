@@ -17,7 +17,7 @@ classifiers = ['Development Status :: 4 - Beta',
 
 setup(
     name         = 'lsm9ds1',
-    version      = '1.0',
+    version      = '1.0.1',
     author       = 'Maciej Biskup',
     author_email = 'mbiskup123@gmail.com',
     description  = "Library for lsm9ds1",
