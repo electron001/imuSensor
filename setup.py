@@ -9,7 +9,7 @@ except:
 
 classifiers = ['Development Status :: 4 - Beta',
                'Operating System :: POSIX :: Linux',
-               'License :: OSI Approved :: Apache Software License',
+               'License :: OSI Approved :: Apache License 2.0',
                'Intended Audience :: Developers',
                'Programming Language :: Python :: 3.8.5',
                'Topic :: Software Development',
@@ -17,13 +17,13 @@ classifiers = ['Development Status :: 4 - Beta',
 
 setup(
     name         = 'lsm9ds1',
-    version      = '1.0.2',
+    version      = '1.0',
     author       = 'Maciej Biskup',
     author_email = 'mbiskup123@gmail.com',
     description  = "Library for lsm9ds1",
     long_description=long_description,
     url          = 'https://github.com/electron001/imuSensor/',
-    license      = 'Apache Software License',
+    license      = 'Apache License 2.0',
     classifiers  = classifiers,
     packages     = find_packages()
 )
