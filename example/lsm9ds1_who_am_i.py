@@ -1,8 +1,8 @@
-import lsm9ds1_python
+import lsm9ds1
 import time
 import sys
 
-lsm9ds1 = lsm9ds1_python.lsm9ds1()
+lsm9ds1 = lsm9ds1.lsm9ds1()
 
 try:
 
